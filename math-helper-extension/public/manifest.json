@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Math Helper",
+    "description": "A simple math helper extension",
+    "action":{
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ],
+    "icons":{
+        "16": "math.png",
+        "32": "math.png",
+        "48": "math.png",
+        "128": "math.png"
+    }
+}
